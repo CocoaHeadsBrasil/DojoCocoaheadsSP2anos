@@ -8,7 +8,13 @@
 
 import UIKit
 
+protocol ControllerDelegate {
+    
+}
+
 class ViewController: UIViewController {
+    
+    var delegate: ControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -9,22 +9,21 @@
 /* Begin PBXBuildFile section */
 		0281F9681CF0E6EF00DC9441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9671CF0E6EF00DC9441 /* AppDelegate.swift */; };
 		0281F96A1CF0E6EF00DC9441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9691CF0E6EF00DC9441 /* ViewController.swift */; };
-		0281F96D1CF0E6EF00DC9441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0281F96B1CF0E6EF00DC9441 /* Main.storyboard */; };
 		0281F96F1CF0E6EF00DC9441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0281F96E1CF0E6EF00DC9441 /* Assets.xcassets */; };
 		0281F9721CF0E6EF00DC9441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0281F9701CF0E6EF00DC9441 /* LaunchScreen.storyboard */; };
 		0281F97D1CF0E6EF00DC9441 /* TDD4SquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F97C1CF0E6EF00DC9441 /* TDD4SquareTests.swift */; };
-		0281F9881CF0E6EF00DC9441 /* TDD4SquareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9871CF0E6EF00DC9441 /* TDD4SquareUITests.swift */; };
+		0281F9961CF0E73800DC9441 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9951CF0E73800DC9441 /* AppCoordinator.swift */; };
+		0281F99C1CF0E91600DC9441 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F99A1CF0E91600DC9441 /* AppCoordinatorTests.swift */; };
+		0281F99F1CF0EEA700DC9441 /* FoursquareAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F99D1CF0EEA700DC9441 /* FoursquareAPITests.swift */; };
+		0281F9A11CF0EF0200DC9441 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9A01CF0EF0200DC9441 /* Venue.swift */; };
+		0281F9A31CF0F13400DC9441 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9A21CF0F13400DC9441 /* APIClient.swift */; };
+		0281F9A51CF0F16500DC9441 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0281F9A41CF0F16500DC9441 /* CoreLocation.framework */; };
+		0281F9A71CF0F20B00DC9441 /* CLLocation+4SQString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9A61CF0F20B00DC9441 /* CLLocation+4SQString.swift */; };
+		0281F9AA1CF0F27200DC9441 /* CLLocationExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F9A81CF0F27200DC9441 /* CLLocationExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0281F9791CF0E6EF00DC9441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0281F95C1CF0E6EF00DC9441 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0281F9631CF0E6EF00DC9441;
-			remoteInfo = TDD4Square;
-		};
-		0281F9841CF0E6EF00DC9441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0281F95C1CF0E6EF00DC9441 /* Project object */;
 			proxyType = 1;
@@ -37,16 +36,22 @@
 		0281F9641CF0E6EF00DC9441 /* TDD4Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDD4Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0281F9671CF0E6EF00DC9441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0281F9691CF0E6EF00DC9441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0281F96C1CF0E6EF00DC9441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0281F96E1CF0E6EF00DC9441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0281F9711CF0E6EF00DC9441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0281F9731CF0E6EF00DC9441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0281F9781CF0E6EF00DC9441 /* TDD4SquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD4SquareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0281F97C1CF0E6EF00DC9441 /* TDD4SquareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD4SquareTests.swift; sourceTree = "<group>"; };
 		0281F97E1CF0E6EF00DC9441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0281F9831CF0E6EF00DC9441 /* TDD4SquareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD4SquareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0281F9871CF0E6EF00DC9441 /* TDD4SquareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD4SquareUITests.swift; sourceTree = "<group>"; };
 		0281F9891CF0E6EF00DC9441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0281F9951CF0E73800DC9441 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0281F99A1CF0E91600DC9441 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		0281F99D1CF0EEA700DC9441 /* FoursquareAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareAPITests.swift; sourceTree = "<group>"; };
+		0281F9A01CF0EF0200DC9441 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		0281F9A21CF0F13400DC9441 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0281F9A41CF0F16500DC9441 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0281F9A61CF0F20B00DC9441 /* CLLocation+4SQString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+4SQString.swift"; sourceTree = "<group>"; };
+		0281F9A81CF0F27200DC9441 /* CLLocationExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0281F9A51CF0F16500DC9441 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0281F9751CF0E6EF00DC9441 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0281F9801CF0E6EF00DC9441 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,6 +76,7 @@
 		0281F95B1CF0E6EF00DC9441 = {
 			isa = PBXGroup;
 			children = (
+				0281F9A41CF0F16500DC9441 /* CoreLocation.framework */,
 				0281F9661CF0E6EF00DC9441 /* TDD4Square */,
 				0281F97B1CF0E6EF00DC9441 /* TDD4SquareTests */,
 				0281F9861CF0E6EF00DC9441 /* TDD4SquareUITests */,
@@ -89,7 +89,6 @@
 			children = (
 				0281F9641CF0E6EF00DC9441 /* TDD4Square.app */,
 				0281F9781CF0E6EF00DC9441 /* TDD4SquareTests.xctest */,
-				0281F9831CF0E6EF00DC9441 /* TDD4SquareUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +98,13 @@
 			children = (
 				0281F9671CF0E6EF00DC9441 /* AppDelegate.swift */,
 				0281F9691CF0E6EF00DC9441 /* ViewController.swift */,
-				0281F96B1CF0E6EF00DC9441 /* Main.storyboard */,
 				0281F96E1CF0E6EF00DC9441 /* Assets.xcassets */,
 				0281F9701CF0E6EF00DC9441 /* LaunchScreen.storyboard */,
 				0281F9731CF0E6EF00DC9441 /* Info.plist */,
+				0281F9951CF0E73800DC9441 /* AppCoordinator.swift */,
+				0281F9A01CF0EF0200DC9441 /* Venue.swift */,
+				0281F9A61CF0F20B00DC9441 /* CLLocation+4SQString.swift */,
+				0281F9A21CF0F13400DC9441 /* APIClient.swift */,
 			);
 			path = TDD4Square;
 			sourceTree = "<group>";
@@ -112,6 +114,9 @@
 			children = (
 				0281F97C1CF0E6EF00DC9441 /* TDD4SquareTests.swift */,
 				0281F97E1CF0E6EF00DC9441 /* Info.plist */,
+				0281F99A1CF0E91600DC9441 /* AppCoordinatorTests.swift */,
+				0281F99D1CF0EEA700DC9441 /* FoursquareAPITests.swift */,
+				0281F9A81CF0F27200DC9441 /* CLLocationExtensionTests.swift */,
 			);
 			path = TDD4SquareTests;
 			sourceTree = "<group>";
@@ -163,24 +168,6 @@
 			productReference = 0281F9781CF0E6EF00DC9441 /* TDD4SquareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0281F9821CF0E6EF00DC9441 /* TDD4SquareUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0281F9921CF0E6EF00DC9441 /* Build configuration list for PBXNativeTarget "TDD4SquareUITests" */;
-			buildPhases = (
-				0281F97F1CF0E6EF00DC9441 /* Sources */,
-				0281F9801CF0E6EF00DC9441 /* Frameworks */,
-				0281F9811CF0E6EF00DC9441 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0281F9851CF0E6EF00DC9441 /* PBXTargetDependency */,
-			);
-			name = TDD4SquareUITests;
-			productName = TDD4SquareUITests;
-			productReference = 0281F9831CF0E6EF00DC9441 /* TDD4SquareUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +182,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					0281F9771CF0E6EF00DC9441 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 0281F9631CF0E6EF00DC9441;
-					};
-					0281F9821CF0E6EF00DC9441 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 0281F9631CF0E6EF00DC9441;
 					};
@@ -219,7 +202,6 @@
 			targets = (
 				0281F9631CF0E6EF00DC9441 /* TDD4Square */,
 				0281F9771CF0E6EF00DC9441 /* TDD4SquareTests */,
-				0281F9821CF0E6EF00DC9441 /* TDD4SquareUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,18 +213,10 @@
 			files = (
 				0281F9721CF0E6EF00DC9441 /* LaunchScreen.storyboard in Resources */,
 				0281F96F1CF0E6EF00DC9441 /* Assets.xcassets in Resources */,
-				0281F96D1CF0E6EF00DC9441 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0281F9761CF0E6EF00DC9441 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0281F9811CF0E6EF00DC9441 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,7 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0281F9961CF0E73800DC9441 /* AppCoordinator.swift in Sources */,
+				0281F9A71CF0F20B00DC9441 /* CLLocation+4SQString.swift in Sources */,
+				0281F9A11CF0EF0200DC9441 /* Venue.swift in Sources */,
 				0281F96A1CF0E6EF00DC9441 /* ViewController.swift in Sources */,
+				0281F9A31CF0F13400DC9441 /* APIClient.swift in Sources */,
 				0281F9681CF0E6EF00DC9441 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,15 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0281F99C1CF0E91600DC9441 /* AppCoordinatorTests.swift in Sources */,
+				0281F9AA1CF0F27200DC9441 /* CLLocationExtensionTests.swift in Sources */,
+				0281F99F1CF0EEA700DC9441 /* FoursquareAPITests.swift in Sources */,
 				0281F97D1CF0E6EF00DC9441 /* TDD4SquareTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0281F97F1CF0E6EF00DC9441 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0281F9881CF0E6EF00DC9441 /* TDD4SquareUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,22 +258,9 @@
 			target = 0281F9631CF0E6EF00DC9441 /* TDD4Square */;
 			targetProxy = 0281F9791CF0E6EF00DC9441 /* PBXContainerItemProxy */;
 		};
-		0281F9851CF0E6EF00DC9441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0281F9631CF0E6EF00DC9441 /* TDD4Square */;
-			targetProxy = 0281F9841CF0E6EF00DC9441 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0281F96B1CF0E6EF00DC9441 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0281F96C1CF0E6EF00DC9441 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0281F9701CF0E6EF00DC9441 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,28 +403,6 @@
 			};
 			name = Release;
 		};
-		0281F9931CF0E6EF00DC9441 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TDD4SquareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaheads.TDD4SquareUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TDD4Square;
-			};
-			name = Debug;
-		};
-		0281F9941CF0E6EF00DC9441 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TDD4SquareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaheads.TDD4SquareUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TDD4Square;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,14 +428,6 @@
 			buildConfigurations = (
 				0281F9901CF0E6EF00DC9441 /* Debug */,
 				0281F9911CF0E6EF00DC9441 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		0281F9921CF0E6EF00DC9441 /* Build configuration list for PBXNativeTarget "TDD4SquareUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0281F9931CF0E6EF00DC9441 /* Debug */,
-				0281F9941CF0E6EF00DC9441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
